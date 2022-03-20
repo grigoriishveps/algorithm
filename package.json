@@ -52,8 +52,8 @@
     "build2": "react-scripts build",
     "test2": "react-scripts test",
     "eject2": "react-scripts eject",
-    "start": "NODE_ENV=development webpack serve",
-    "prod": "NODE_ENV=production webpack --mode production",
+    "dev": "NODE_ENV=development webpack serve",
+    "start": "NODE_ENV=production webpack --mode production",
     "jschecker": "bash ./pre-commit/js-checker"
   },
   "eslintConfig": {
