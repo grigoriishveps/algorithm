@@ -1,0 +1,27 @@
+@import "~sass-rem";
+
+.drawer {
+    width: 240px;
+    flex-shrink: 0;
+
+    & :global(.MuiDrawer-paper) {
+        width: rem(240px);
+        box-sizing: border-box;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    min-height: 60px;
+}
+
+.done {
+    background: aquamarine;
+}
+
+.failure {
+    background: darksalmon;
+}

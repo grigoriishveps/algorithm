@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["./src/*"],
+      "@locale": ["./src/locale/strings.js"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

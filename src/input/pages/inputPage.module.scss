@@ -1,0 +1,32 @@
+@import "~sass-rem";
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    > div {
+        margin-bottom: rem(20px);
+    }
+}
+
+.button {
+
+}
+
+.row {
+    //display: flex;
+    //flex-direction: row;
+
+    > div {
+        margin-right: rem(10px);
+        >div {
+            margin-right: rem(10px);
+            margin-bottom: rem(10px);
+        }
+    }
+}
+
+.cell {
+    display: inline-flex;
+    max-width: rem(60px);
+}

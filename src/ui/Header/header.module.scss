@@ -1,0 +1,48 @@
+@import "~sass-rem";
+
+.navigationText {
+    flex-grow:1;
+
+    font-weight: 500;
+    font-size: rem(24px);
+    line-height: rem(28px);
+}
+
+.userCredentials {
+    margin-right:20px;
+    margin-left:20px;
+
+    font-weight: 500;
+    font-size: rem(18px);
+    line-height: rem(32px);
+
+    white-space: pre-line;
+}
+
+.selects {
+    margin-left: 20px;
+
+    & :global(.MuiSelect-select) {
+        padding: 8px 14px;
+    }
+}
+
+.header {
+    min-height: 60px;
+
+    transition: margin 225ms cubic-bezier(0, 0, 0.2, 1), width 225ms cubic-bezier(0, 0, 0.2, 1);
+
+    &.open{
+        width: calc(100% - rem(240px));
+        margin-left: rem(240px);
+    }
+
+    .content {
+        min-height: 60px;
+    }
+}
+
+.navigation {
+    margin-right: 2rem;
+}
+
